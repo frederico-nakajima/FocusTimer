@@ -17,12 +17,10 @@
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src="assets/FocusTimer - dark mode.png" width="100%">
+  <img alt="imagem de um timer" src="assets/capa.png" width="100%">
 </p>
 
-<p align="center">
-  <img alt="calendario da copa" src="assets/FocusTimer - white mode.png" width="100%">
-</p>
+
 
 ## 🚀 Tecnologias
 
