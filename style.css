@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root{
     --hue:194;
     --bg-color:hsl(240, 5%, 7%, 1);
@@ -11,17 +10,12 @@
     --primary-color:hsl(194, 100%, 63%, 1);
     --controls-bg-color:hsl(0, 0%, 14%, 1);
     --button-secondary:hsl(240, 40%, 98%, 1);
-
     font-size: clamp(40%,1% + 2vw,62.5%);
-
 }
-
-
 #app{
     display: grid;
     justify-items: center;
 }
-
 .flex{
     display: flex;
 }
@@ -30,7 +24,6 @@
     font-weight: bold;
     font-family: sans-serif;
 }
-
 #controls{
     margin-top: 1.6rem;
     padding: 2.2rem 4rem;
@@ -38,16 +31,13 @@
     background-color: var(--controls-bg-color);
     border-radius: 999rem;
 }
-
 button{
     background-color: transparent;
     border: 0;
-    color: var(--primary-color);
-    
+    color: var(--primary-color);    
     cursor: pointer;
     font-size: 6.4rem;
 }
-
 .secondary{
     color: var(--button-secondary);
 }
@@ -63,40 +53,33 @@ html:not(.music-on) .ph-speaker-high{
 
 html.light{
     --text-color:hsl(240, 5%, 7%, 1);
-    --bg-color:hsl(240, 40%, 98%, 1);
-  
+    --bg-color:hsl(240, 40%, 98%, 1);  
 }
 
 html.light .ph-sun,
 html:not(.light) .ph-moon{
     display: none;
 }
-
 #toggle-mode{
     position: absolute;
     right: 3.2rem;
     top: 3.2rem;
     font-size: 3.2rem;
     line-height: 0;
-
     color: var(--text-color);
 }
-
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
-
     display: grid;
     height: 100vh;
     place-content: center;
 }
-
 .sr-only{
     width: 1px;
     height: 1px;
     position: absolute;
-    overflow: hidden;
-    
+    overflow: hidden;    
     margin: -1px;
     padding: 0px;
     border: 0;
